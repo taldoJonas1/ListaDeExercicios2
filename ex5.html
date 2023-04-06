@@ -1,0 +1,38 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5</title>
+    <link rel="stylesheet" href="ex5.css">
+</head>
+<body>
+    <div id="container">
+        <div id="divN1">
+            Numero 1 <input type="button" id="n1">
+        </div>
+        <div id="divN2">
+            Numero 2 <input type="button" id="n2">
+        </div>
+        <div>
+            <select id="divEscolha">
+                Escolha a operação
+                <option value="1"> Média </option>
+                <option value="2"> Subtração </option>
+                <option value="3"> Produto </option>
+                <option value="4"> Divisão </option>
+            </select>
+            <div id="divButton">
+                <button onclick="ex5()"> Calcular operação </button>
+            </div>
+            <div id="divResultado">
+                <p>
+                    O resultado da operação é <span id="resultado"> </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="reviaso.js"></script>
+ </body>
+</html>
