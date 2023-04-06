@@ -1,0 +1,25 @@
+#container{
+    border: 1px solid red;
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+}
+
+#divResultado{
+    text-align: center;
+    margin: 10px;
+}
+
+#divButton{
+    text-align: center;
+    margin: 10px;
+}
+
+#divEscolha{
+    text-align: center;
+    margin: 10px;
+}
+
+#span {
+    color: red;
+}
