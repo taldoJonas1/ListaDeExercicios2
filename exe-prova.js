@@ -1,4 +1,4 @@
-function exercicio2(){
+function exercicioProva(){
     let anos = Number(document.getElementById("anos").value)
     let linguagem = Number(document.getElementById("linguagem").value)
     let salario
@@ -28,7 +28,7 @@ function exercicio2(){
         break
         default: salario = "Opção inválida"
     }
-    document.getElementById("resultado").innerHTML = salario
+    document.getElementById("resultado").innerHTML = "R$" + salario
 
     if (salario < 4500){
         expectativa = "alta"
