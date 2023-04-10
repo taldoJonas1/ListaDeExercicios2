@@ -21,6 +21,8 @@ function ex5(){
                 else {
                     resultado = "Não pode dividir por 0"
                 }
+                break
         default: resultado = "Opção inválida"
     }
+    document.getElementById("resultado").innerHTML = resultado
 }
