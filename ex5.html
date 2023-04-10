@@ -1,4 +1,4 @@
-DOCTYPE html>
+<DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,22 +9,22 @@ DOCTYPE html>
 </head>
 <body>
     <div id="container">
-        <div id="divN1">
-            Numero 1 <input type="button" id="n1">
-        </div>
-        <div id="divN2">
-            Numero 2 <input type="button" id="n2">
+        <div>
+            Numero 1 <input type="number" id="n1">
         </div>
         <div>
-            <select id="divEscolha">
-                Escolha a operação
+            Numero 2 <input type="number" id="n2">
+        </div>
+        <div id="divB">
+            Escolha a operação
+            <select id="select">
                 <option value="1"> Média </option>
                 <option value="2"> Subtração </option>
                 <option value="3"> Produto </option>
                 <option value="4"> Divisão </option>
             </select>
-            <div id="divButton">
-                <button onclick="ex5()"> Calcular operação </button>
+            <div>
+                <input type="button" value="Calcular escolha" onclick="ex5()">
             </div>
             <div id="divResultado">
                 <p>
