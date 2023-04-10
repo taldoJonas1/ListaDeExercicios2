@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="lista2.css"/>
+    </head>
+    <body>
+        <div id="container">
+            <div> 
+               Anos de experiência <input type="number" id="anos"/> 
+            </div>
+        </div>
+            <div>
+                Linguagem dominante
+                <select id="linguagem">
+                    <option value="1"> JavaScript </option>
+                    <option value="2"> React </option>
+                    <option value="3"> Node </option>
+                </select>
+            </div>
+             <div>
+                <button onclick="exercicio2()"> Calcular operação </button>
+             </div>
+             <div>
+                <p> 
+                    Seu salário será <span id="resultado"> </span>
+                </p>
+                <p>
+                    A expectativa de você conseguir um emprego é <span id="expectativa"> </span>
+                </p>
+             </div>
+        </div> 
+        <script src="exe2.js"></script>        
+    </body>
+</html>
