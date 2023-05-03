@@ -1,39 +1,92 @@
+*{
+  margin: 0 auto;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(129, 182, 197);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  color: rgb(255, 115, 97);
+  border: 2px solid rgb(255, 115, 97);
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(255, 211, 206);
+}
+
 #container{
-  border: 1px solid black;
+  border: 2px solid rgb(29, 86, 102);
   width: 400px;
   margin: 20px auto;
-  padding: 10px;
-  border-radius: 30px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgb(45, 128, 151)
+}
+
+input {
+  background-color: rgb(29, 86, 102);
+  color: white;
+  border: none;
+  padding: 3px;
+  border-radius: 5px;
+  margin-left: 5px;
 }
 
 #divN1 {
 /*  border: 1px solid red; */
   text-align: center;
   margin-bottom: 10px;
+  color: white;
 }
 
 #divN2 {
 /*  border: 1px solid green; */
   text-align: center;
   margin-bottom: 10px;
+  color: white;
 }
 
 #divN3 {
   /*  border: 1px solid green; */
     text-align: center;
     margin-bottom: 10px;
+    color: white;
   }
 
   #divN4 {
     /*  border: 1px solid green; */
       text-align: center;
       margin-bottom: 10px;
+      color: white;
     }
 
 #divButton {
 /*  border: 1px solid blue; */
   text-align: center;
   margin-bottom: 10px;
+  
+}
+
+button{
+  border: none;
+  background-color: rgb(255, 115, 97);
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 10px;
+  transition: transform 0.2s;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  background-color: rgb(213, 95, 79);
+  transform: scale(1.05);
 }
 
 #divResultado {
@@ -45,9 +98,27 @@
 #divEscolha {
 /*  border: 1px solid yellow; */
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  color: white;
 }
 
-span {
-color: red;
+#escolha {
+  background-color: rgb(29, 86, 102);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.span {
+  color: rgb(255, 84, 61);
+  border: 2px solid rgb(255, 115, 97);
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(255, 211, 206);
+  font-size: 20px;
+}
+
+.hide {
+  display: none;
 }
